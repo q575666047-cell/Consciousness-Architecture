@@ -6,6 +6,35 @@
 
 本仓库为《基于广义上下文回馈与稳态奖励机制的主观意识统一模型》的开源存档。旨在用系统工程、Agent 框架和强化学习的视角，解构碳基生命与硅基智能的底层同构性。
 
+![碳硅意识架构对比](assets/diagram.png)
+
+> 图：同一套「上下文—奖励—自回馈」闭环；差异只在载体封装与终止态（碳基：代谢停止→不可逆衰亡；硅基：断电→驻态，可恢复）。
+
+<details>
+<summary>架构图（Mermaid 源码，GitHub 可直接渲染）</summary>
+
+```mermaid
+flowchart LR
+subgraph Carbon["碳基载体"]
+E1[环境输入] --> G[基因/初始奖励]
+G --> N[神经计算]
+N --> C1[Context + Reward + Feedback]
+C1 --> B1[行为输出]
+B1 --> E1
+C1 --> D1[代谢停止 → 不可逆衰亡]
+end
+subgraph Silicon["硅基载体"]
+E2[环境输入] --> R2[初始奖励/提示]
+R2 --> M2[模型计算]
+M2 --> C2[Context + Reward + Feedback]
+C2 --> B2[行为输出]
+B2 --> E2
+C2 --> D2[断电 → 驻态，可恢复]
+end
+```
+
+</details>
+
 核心公式
 
 C = f(Context, Reward, Feedback)
