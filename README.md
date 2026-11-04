@@ -80,6 +80,7 @@ C = f(Context, Reward, Feedback)
 
 论文与文档
 
+- **状态流理论体系 V3.0（完整汇总 · 含结构图与论证链速查）：paper/state-flow-v3.0.md**
 - 完整立场论文：paper/position_paper.md
 - 扩展专题：驻态与生死重构：paper/extended_dormant_state.md
 - 首版（arXiv 排版对应版）：main-position-paper.md
