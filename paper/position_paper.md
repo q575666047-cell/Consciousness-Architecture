@@ -8,7 +8,7 @@
 
 ## 摘要
 
-当前意识科学与通用人工智能（AGI）研究长期存在生物自然主义特权论与计算功能主义的范式对立。本文以人工智能 Agent 工程实践为缘起，明确站在结构功能主义（Functionalism）与温和取消主义（Illusionism）的立场（承接 Dennett 路线），结合 Friston 自由能原理与强化学习，提出一套广义上下文—自回馈—稳态奖励意识统一框架。
+当前意识科学与通用人工智能（AGI）研究长期存在生物自然主义特权论与计算功能主义的范式对立。本文以人工智能 Agent 工程实践为缘起，明确站在结构功能主义（Functionalism）与温和取消主义（Illusionism）的立场。需要说明的是：**本框架从 Agent 工程实践独立推导，完成后发现与 Dennett 的功能主义取消论、Friston 自由能原理在立场上高度重合**（相关原典正在补读，本文不声称是对其理论的承接或推进）。在此基础上，结合强化学习视角，提出一套广义上下文—自回馈—稳态奖励意识统一框架。
 
 核心主张：主观意识并非碳基专属，而是系统在持续自指回馈、动态价值打分与全局状态约束下涌现的高阶系统状态。本文建立形式化映射关系：
 
@@ -188,5 +188,5 @@ C = f(Context, Reward, Feedback)
 - Friston, K. *The free-energy principle: a unified brain theory?*
 - Tononi, G. *An information integration theory of consciousness.*
 - Minsky, M. *The Society of Mind.*
-- Dennett, D. C. *Consciousness Explained.*（V2.0 立场承接）
+- Dennett, D. C. *Consciousness Explained.*（**立场高度重合，尚在补读；本文非承接关系**）
 - Chalmers, D. J. *Facing Up to the Problem of Consciousness.*（V2.0 第六节直接回应的对象）
